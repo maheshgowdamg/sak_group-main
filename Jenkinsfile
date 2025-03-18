@@ -7,7 +7,7 @@ pipeline {
      stages {
          stage('Pull the source code') {
              steps {
-                 git branch: 'main', url: 'https://github.com/maheshgowdamg/sak_group_main.git '
+                 git branch: 'main', url: 'https://github.com/maheshgowdamg/sak_group-main.git'
              }
          }
  
